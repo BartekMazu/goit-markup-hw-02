@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
 }
+
+
 /*WebStudio*/
 .logo {
   font-family: 'Raleway';
@@ -12,6 +14,8 @@ body {
 .text-blue {
   color: #2196f3;
 }
+
+
 /*Menu*/
 .menu-nav a {
   font-size: 14px;
@@ -19,9 +23,11 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.menu-nav{
+.menu-nav {
   list-style-type: none;
 }
+
+
 /*Kontakt w header*/
 .menu-contact a {
   font-size: 14px;
@@ -33,6 +39,8 @@ body {
 .menu-contact {
   list-style-type: none;
 }
+
+
 /*Linki i Przyciski*/
 a {
   text-decoration: none;
@@ -48,4 +56,33 @@ button {
 .all-button:hover,
 .all-button:focus {
   color: #2196f3;
+}
+
+
+/*footer*/
+.footer-box {
+  background-color: #2f303a;
+}
+.footer-box a {
+  color: #ffffff;
+}
+.footer-box a:hover,
+.footer-box a:focus {
+  color: #2196f3;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  list-style-type: none;
+}
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-contact {
+  list-style-type: none;
 }
