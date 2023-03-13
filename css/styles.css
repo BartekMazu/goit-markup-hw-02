@@ -37,20 +37,13 @@ body {
   list-style-type: none;
 }
 
-/*Linki i Przyciski*/
+/*Linki*/
 a {
   text-decoration: none;
   color: #212121;
 }
 a:hover,
 a:focus {
-  color: #2196f3;
-}
-button {
-  cursor: pointer;
-}
-.all-button:hover,
-.all-button:focus {
   color: #2196f3;
 }
 
@@ -96,15 +89,15 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.first-page .all-button {
+.first-page .first-button {
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
 }
-.first-page .all-button:hover,
-.first-page .all-button:focus {
+.first-page .first-button:hover,
+.first-page .first-button:focus {
   color: #212121;
 }
 
@@ -146,15 +139,47 @@ h2 {
 .team-box ul {
   list-style-type: none;
 }
+
 h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.job-name{
+.job-name {
   font-size: 16px;
-  line-height:1.2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #757575
+  color: #757575;
+}
+
+/*PORTFOLIO*/
+/*Lista portfolio*/
+.portfolio-list ul {
+  list-style-type: none;
+}
+.portfolio-list button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.porfolio-button:hover,
+.porfolio-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.porfolio-main-text{
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.porfolio-text{
+  font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color:#757575;
 }
