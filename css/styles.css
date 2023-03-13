@@ -9,6 +9,12 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
+  text-decoration: none;
+  color: #212121;
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
 }
 .text-blue {
   color: #2196f3;
@@ -24,6 +30,14 @@ body {
 .menu-nav {
   list-style-type: none;
 }
+.menu-nav a {
+  text-decoration: none;
+  color: #212121;
+}
+.menu-nav a:hover,
+.menu-nav a:focus {
+  color: #2196f3;
+}
 
 /*Kontakt w header*/
 .menu-contact a {
@@ -32,19 +46,20 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+}
+.menu-contact a:hover,
+.menu-contact a:focus {
+  color: #2196f3;
 }
 .menu-contact {
   list-style-type: none;
 }
 
 /*Linki*/
-a {
+.link-decoration-color {
   text-decoration: none;
   color: #212121;
-}
-a:hover,
-a:focus {
-  color: #2196f3;
 }
 
 /*footer*/
@@ -53,6 +68,7 @@ a:focus {
 }
 .footer-box a {
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-box a:hover,
 .footer-box a:focus {
@@ -71,6 +87,7 @@ a:focus {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
 .footer-contact {
   list-style-type: none;
 }
@@ -80,7 +97,7 @@ a:focus {
 .first-page {
   background-color: #2f303a;
 }
-h1 {
+.main-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -120,7 +137,7 @@ h1 {
 }
 
 /*Czym sie zajmujemy*/
-h2 {
+.second-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -140,7 +157,8 @@ h2 {
   list-style-type: none;
 }
 
-h3 {
+.third-title
+ {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -171,15 +189,15 @@ h3 {
   background-color: #2196f3;
   color: #ffffff;
 }
-.porfolio-main-text{
+.porfolio-main-text {
   font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.porfolio-text{
+.porfolio-text {
   font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color:#757575;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
