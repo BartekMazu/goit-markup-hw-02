@@ -2,14 +2,38 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
 }
+/*WebStudio*/
 .logo {
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.2;
 }
 .text-blue {
   color: #2196f3;
 }
+/*Menu*/
+.menu-nav a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.menu-nav{
+  list-style-type: none;
+}
+/*Kontakt w header*/
+.menu-contact a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.menu-contact {
+  list-style-type: none;
+}
+/*Linki i Przyciski*/
 a {
   text-decoration: none;
   color: #212121;
