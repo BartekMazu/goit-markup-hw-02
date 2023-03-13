@@ -3,7 +3,6 @@ body {
   color: #212121;
 }
 
-
 /*WebStudio*/
 .logo {
   font-family: 'Raleway';
@@ -14,7 +13,6 @@ body {
 .text-blue {
   color: #2196f3;
 }
-
 
 /*Menu*/
 .menu-nav a {
@@ -27,7 +25,6 @@ body {
   list-style-type: none;
 }
 
-
 /*Kontakt w header*/
 .menu-contact a {
   font-size: 14px;
@@ -39,7 +36,6 @@ body {
 .menu-contact {
   list-style-type: none;
 }
-
 
 /*Linki i Przyciski*/
 a {
@@ -57,7 +53,6 @@ button {
 .all-button:focus {
   color: #2196f3;
 }
-
 
 /*footer*/
 .footer-box {
@@ -85,4 +80,30 @@ button {
 }
 .footer-contact {
   list-style-type: none;
+}
+
+/*---Agencja---*/
+/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+.first-page {
+  background-color: #2f303a;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.first-page .all-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.first-page .all-button:hover,
+.first-page .all-button:focus {
+  color: #212121;
 }
