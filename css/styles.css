@@ -107,3 +107,54 @@ h1 {
 .first-page .all-button:focus {
   color: #212121;
 }
+
+/*nasze atuty*/
+.feature-box {
+  list-style-type: none;
+}
+.text-feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text-feature-under {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*Czym sie zajmujemy*/
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+}
+.job-box ul {
+  list-style-type: none;
+}
+
+/*Nasz zespół*/
+.team-box {
+  background-color: #f5f4fa;
+}
+.team-box ul {
+  list-style-type: none;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.job-name{
+  font-size: 16px;
+  line-height:1.2;
+  letter-spacing: 0.03em;
+  color: #757575
+}
