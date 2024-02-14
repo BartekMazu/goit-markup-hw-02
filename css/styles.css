@@ -1,11 +1,14 @@
 /*globalne*/
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
+
 footer{
     background-color: #2e2f42;
 }
+
 .logo{
     font-family:"Raleway", sans-serif;
     font-weight: 700;
@@ -16,6 +19,7 @@ footer{
     text-decoration: none;
     color: #4d5ae5;
 }
+
 .logo-shadow{
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -24,9 +28,11 @@ footer{
 .color-logo-studio-menu{
     color: #2e2f42;
 }
+
 .menu-nav{
     list-style-type: none;
 }
+
 .menu-nav-link{
     text-decoration: none;
     color:#2e2f42;
@@ -34,20 +40,24 @@ footer{
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+
 .menu-nav-link:hover,
 .menu-nav-link:focus {
     color: #404bbf;
 }
 
+.box-address{
+    font-style: normal;
+}
 .contacts-address{
     list-style-type: none;
 }
+
 .contacts-address-link{
     line-height: 150%;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #434455;
-    font-style: normal;
 }
 .contacts-address-link:hover,
 .contacts-address-link:focus {
@@ -73,6 +83,7 @@ footer{
     height: 56px;
     background-color: #4d5ae5;
     /*text*/
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -109,6 +120,7 @@ footer{
 /*Our Team*/
 .our-team{
     background-color: #f4f4fd;
+    text-transform: capitalize;
 }
 .our-team-header{
     font-weight: 700;
@@ -149,6 +161,7 @@ footer{
     width: 360px;
     height: 420px;
     background-color: #fff;
+    text-transform: capitalize;
 }
 .our-portfolio-header{
     font-weight: 700;
@@ -174,14 +187,12 @@ footer{
 
 
 /*FOOTER*/
-.first-box-footer{
-    width: 264px;
-}
+
 .color-logo-studio-footer {
     color: #f4f4fd;
 }
 .text-footer{
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
